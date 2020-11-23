@@ -1,31 +1,30 @@
 [tool.poetry]
-name = "Nuvoton ISP"
+name = "nuvoton_isp"
 version = "0.1.0"
 description = "Nuvoton ISP library and CLI"
-authors = ["Reza Jelveh <git@jelveh.me>"]
+authors = ["Reza Jelveh <>"]
 license = "MIT license"
 
 readme = "README.rst"
 
-repository = "https://github.com/fishman/Nuvoton ISP"
+repository = "https://github.com/fishman/nuvoton_isp"
 
-homepage = "https://fishman.github.io/Nuvoton ISP"
-
-packages = [
-    { include = "nuvoton_isp", from = "src"},
-]
+homepage = "https://fishman.github.io/nuvoton_isp"
 
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "Intended Audience :: Developers",
     "Natural Language :: English",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.4",
-    "Programming Language :: Python :: 3.5",
     "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
 ]
+
+[tool.poetry.scripts]
+nuvoisp = 'nuvoton_isp.cli:main'
+
 [tool.poetry.dependencies]
+python = ">=3.6"
 # List project dependencies here
 
 [tool.poetry.dev-dependencies]
@@ -35,13 +34,12 @@ wheel = "^0.32.1"
 watchdog = "^0.9.0"
 flake8 = "^3.5.0"
 tox = "^3.5.2"
-coverage = "^4.5.1"
 Sphinx = "^1.8.1"
 twine = "^1.12.1"
-
 pytest = "^3.8.2"
 pytest-runner = "^4.2"
 pytest-cov = "^2.6.0"
 setuptools = "^40.5.0"
 rstcheck = "^3.3.1"
 ptpython = "^2.0.4"
+black = "^20.8b1"
