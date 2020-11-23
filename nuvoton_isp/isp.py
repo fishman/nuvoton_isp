@@ -10,7 +10,7 @@ import usb.core
 import usb.util
 
 
-class IspUsb:
+class Usb:
     ap_file = []
     ap_checksum = 0
     packet_number = 0
@@ -46,6 +46,7 @@ class IspUsb:
                                               custom_match=lambda e: \
                                               usb.util.endpoint_direction(e.bEndpointAddress) == \
                                               usb.util.ENDPOINT_IN)
+
         ep_out = usb.util.find_descriptor(intf,  # match the first OUT endpoint
                                           custom_match=lambda e: \
                                           usb.util.endpoint_direction(e.bEndpointAddress) == \

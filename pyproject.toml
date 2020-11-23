@@ -25,7 +25,7 @@ nuvoisp = 'nuvoton_isp.cli:main'
 
 [tool.poetry.dependencies]
 python = ">=3.6"
-# List project dependencies here
+pyusb = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
 bump2version = "^0.5.0"
