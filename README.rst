@@ -6,11 +6,11 @@ Nuvoton ISP
 .. image:: https://img.shields.io/pypi/v/nuvoton_isp.svg
         :target: https://pypi.python.org/pypi/nuvoton_isp
 
-.. image:: https://img.shields.io/travis/fishman/Nuvoton ISP.svg
-        :target: https://travis-ci.org/fishman/Nuvoton ISP
+.. image:: https://img.shields.io/travis/fishman/nuvoton_isp.svg
+        :target: https://travis-ci.org/fishman/nuvoton_isp
 
 .. image:: https://ci.appveyor.com/api/projects/status/fishman/branch/master?svg=true
-    :target: https://ci.appveyor.com/project/fishman/Nuvoton ISP/branch/master
+    :target: https://ci.appveyor.com/project/fishman/nuvoton_isp/branch/master
     :alt: Build status on Appveyor
 
 .. image:: https://readthedocs.org/projects/nuvoton-isp/badge/?version=latest
@@ -18,8 +18,8 @@ Nuvoton ISP
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/fishman/Nuvoton ISP/shield.svg
-     :target: https://pyup.io/repos/github/fishman/Nuvoton ISP/
+.. image:: https://pyup.io/repos/github/fishman/nuvoton_isp/shield.svg
+     :target: https://pyup.io/repos/github/fishman/nuvoton_isp/
      :alt: Updates
 
 
@@ -29,7 +29,7 @@ Nuvoton ISP library and CLI
 
 * Free software: MIT license
 
-* Documentation: https://fishman.github.io/Nuvoton ISP
+* Documentation: https://fishman.github.io/nuvoton_isp
 
 
 
@@ -38,7 +38,7 @@ Installation:
 
 .. code-block:: console
 
-    $ pip install Nuvoton ISP
+    $ pip install nuvoton_isp
 
 Features
 --------
