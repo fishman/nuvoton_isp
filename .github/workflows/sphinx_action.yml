@@ -1,0 +1,7 @@
+steps:
+# Checkout repo
+- uses: actions/checkout@v2
+# Build sphinx doc
+- uses: ammaraskar/sphinx-action@master
+  with:
+    docs-folder: "docs/"
