@@ -41,3 +41,6 @@ jobs:
         poetry config pypi-token.pypi $PYPI_TOKEN
         poetry build        
         poetry publish
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        docs-folder: "docs/"
