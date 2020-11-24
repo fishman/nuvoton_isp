@@ -11,6 +11,10 @@ repository = "https://github.com/fishman/nuvoton_isp"
 
 homepage = "https://fishman.github.io/nuvoton_isp"
 
+packages = [
+    { include = "nuvoton_isp", from = "src"},
+]
+
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "Intended Audience :: Developers",
