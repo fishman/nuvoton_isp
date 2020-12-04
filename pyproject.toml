@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nuvoton_isp"
-version = "0.1.1"
+version = "0.1.2"
 description = "Nuvoton ISP library and CLI"
 authors = ["Reza Jelveh <pypi@jelveh.me>"]
 license = "MIT license"
