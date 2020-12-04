@@ -38,12 +38,19 @@ Installation:
 
 .. code-block:: console
 
-    $ pip install nuvoton_isp
+    $ pip install nuvoton-isp
+
+USAGE:
+------
+
+.. code-block:: console
+
+    $ nuvoisp -f firmware.bin
 
 Features
 --------
 
-* TODO
+* Flash APROM
 
 Credits
 -------
